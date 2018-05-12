@@ -54,6 +54,7 @@ function freeRoom() {
 
 button.onclick = coloringRoom;
 
+// aaa aaa
 for (i = 0; i <= 9; i++) {
     rooms[i].onclick = freeRoom;
 }
