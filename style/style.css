@@ -1,0 +1,39 @@
+body {
+    background-image: url("../image/img.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.room{
+	margin : 0;
+	padding : 1;
+	position : center;
+	display : inline-block;
+	font-size: 30px;
+	height : 250px;
+	width : 100px;
+	background-image: url("image/green.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}
+
+.busy{
+	margin : 0;
+	padding : 1;
+	position : relative;
+	display : inline-block;
+	height : 250px;
+	width : 100px;
+	background-color : red;
+	background-image: url("image/red.jpg")
+}
+
+.gym{
+	
+	text-align: center;
+	
+	
+}
