@@ -3,6 +3,7 @@ var rooms = document.getElementsByClassName('room');
 var i = 0;
 
 function emptyRoom() {
+     if (i % 2 == 0) {
     for (i = 0; i <= 9; i++) {
         if (rooms[i].className.indexOf('busy') === -1) {
             return i;
@@ -11,6 +12,7 @@ function emptyRoom() {
         if (i + 2 < rooms.length && rooms[i + 2].className.indexOf('busy') === -1) {
             return i + 2;
         } 
+    }
 
 //         else {
             if (i + 1 < rooms.length && rooms[i + 1].className.indexOf('busy') === -1) {
