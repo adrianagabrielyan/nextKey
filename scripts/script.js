@@ -1,6 +1,5 @@
 var button = document.getElementById('nextKey');
 var rooms = document.getElementsByClassName('room');
-var i = 0;
 
 function emptyRoom() {
      if (i % 2 == 0) {
@@ -14,11 +13,11 @@ function emptyRoom() {
         } 
     }
 
-//         else {
-            if (i + 1 < rooms.length && rooms[i + 1].className.indexOf('busy') === -1) {
-                return i + 1;
-            }
-//         }
+
+          //  if (i + 1 < rooms.length && rooms[i + 1].className.indexOf('busy') === -1) {
+              //  return i + 1;
+          //  }
+
     }
 }
 
