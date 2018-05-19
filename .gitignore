@@ -1,0 +1,6 @@
+/gym/nbproject/private/
+/nbproject/private/
+*.properties
+gym/nbproject/project.xml
+gym/public_html/index.html
+nbproject/project.xml
